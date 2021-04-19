@@ -4,7 +4,7 @@
     width: 80%;
 }
 header {
-    background-color: red;
+    background-color:red;
     color: #efeeee;
     font-size: 72pt;
     font-family: "impact";
@@ -52,21 +52,17 @@ body {
 aside {
     width: 33%;
     float: right;
-    text-align: center;
     font-size: 12pt;
     color: #585858;
     font-family: "helvetica";
 }
 
-aside ul li a {
+aside a {
     list-style-type: none;
 	text-decoration:none;
-	float: right;
-	color:#90A4AE;}
+	float: right;}
 
-aside ul li {
-    list-style-type: none;
-}
+
 
 .article2 {
     color: #585858;
@@ -82,6 +78,13 @@ aside ul li {
 aside p {
     text-align: left;
 }
+aside p a {
+}
+.pagebox .centeraside {
+    text-align: center;
+}
+.stan {color:red;
+}
 
 @media ( max-width : 767px ){
 .pagebox {
@@ -91,7 +94,17 @@ aside p {
 aside {
     float: none;
     width: 100%;
+    
 }
+	
+.stan {
+	
+	color: red;}
+	
+aside a {
+	float: none;
+	
+	}	
 .article1 {
     font-size: 12pt;
     font-weight: bold;
@@ -106,6 +119,7 @@ header {
 }
 aside p {
     font-weight: bold;
+	text-align: center;
 }
 footer {
     font-size: 12pt;
@@ -113,4 +127,12 @@ footer {
     width: 100%;
     border-bottom: 1px solid #585858;
 }
+	
+.centeraside {
+	text-align: center;
+    
 }
+
+}
+
+
